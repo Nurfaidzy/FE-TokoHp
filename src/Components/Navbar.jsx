@@ -13,18 +13,33 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className="flex font-bold text-xl justify-between py-2 px-2 md:invisible visible">
+        <div className="flex font-bold text-2xl justify-between md:py-0 py-4 px-4 md:invisible visible">
           <div className="">Toko</div>
           <div>
             <BiDotsVerticalRounded onClick={klik} />
           </div>
         </div>
+        {Nav && (
+          <div className="flex justify-end mr-6  ">
+            <ol
+              className="grid grid-cols-1 gap-4 absolute text-right
+             bg-[#003906] rounded-xl pl-10 py-4 pr-2 font-bold text-xl
+              text-white shadow-lg"
+            >
+              <li>Home</li>
+              <li>Product</li>
+              <li>Blog</li>
+              <li>About</li>
+              <li>Contact Us</li>
+            </ol>
+          </div>
+        )}
       </div>
-      <div className="md:px-[5%] md:py-[2%] md:visible invisible  ">
+      <div className="md:px-[5%] md:visible invisible ">
         <div className="flex justify-between ">
           <div className="font-bold text-2xl">Toko</div>
           <div>
-            <ol className="flex gap-20 pt-4">
+            <ol className="flex gap-20 pt-2">
               <li>Home</li>
               <li>Product</li>
               <li>Blog</li>
@@ -33,7 +48,7 @@ const Navbar = () => {
             </ol>
           </div>
           <div>
-            <ol className="flex gap-3 pt-4 text-xl ">
+            <ol className="flex gap-3 pt-2 text-xl ">
               <li>
                 <BiCart />
               </li>
