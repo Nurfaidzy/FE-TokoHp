@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div>
+      <div className="">
         <div className="flex font-bold text-2xl justify-between md:py-0 py-4 px-4 md:invisible visible">
           <div className="">Toko</div>
           <div>
@@ -35,8 +35,8 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="md:px-[5%] md:visible invisible ">
-        <div className="flex justify-between ">
+      <div className="fixed bg-white -mt-8 pb-8 w-screen md:px-[5%] md:visible invisible ">
+        <div className="flex justify-between pt-8 ">
           <div className="font-bold text-2xl">Toko</div>
           <div>
             <ol className="flex gap-20 pt-2">
