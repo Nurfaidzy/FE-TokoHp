@@ -12,18 +12,21 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="">
-        <div className="flex font-bold text-2xl justify-between md:py-0 py-4 px-4 md:invisible visible">
+      <div className="fixed w-full">
+        <div
+          className="flex w-full font-bold text-2xl justify-between md:py-0 py-4 px-4 md:invisible visible
+        bg-white fixed"
+        >
           <div className="">Toko</div>
           <div>
             <BiDotsVerticalRounded onClick={klik} />
           </div>
         </div>
         {Nav && (
-          <div className="flex justify-end mr-6  ">
+          <div className="flex justify-end mr-6 pr-5 w-full pt-[17%] ">
             <ol
-              className="grid grid-cols-1 gap-4 absolute text-right
-             bg-[#003906] rounded-xl pl-10 py-4 pr-2 font-bold text-xl
+              className="grid grid-cols-1 gap-4 text-right
+             bg-[#003906] rounded-xl pl-10  py-4 pr-5 font-bold text-xl
               text-white shadow-lg"
             >
               <li>Home</li>
@@ -35,7 +38,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="fixed bg-white -mt-8 pb-8 w-screen md:px-[5%] md:visible invisible ">
+      <div className="fixed bg-white  pb-8 w-screen md:px-[5%] md:visible invisible ">
         <div className="flex justify-between pt-8 ">
           <div className="font-bold text-2xl">Toko</div>
           <div>
