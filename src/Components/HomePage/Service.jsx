@@ -19,20 +19,22 @@ const Service = () => {
   };
   return (
     <div className="px-[5%] py-[5%]">
-      <div className="text-center font-bold uppercase text-6xl">
+      <div className="text-center font-bold uppercase md:text-6xl text-4xl">
         Our Service
       </div>
       <div>
-        <div className="flex pt-10 w-full">
+        <div className={ser1 ? "md:flex pt-10 w-full" : "flex pt-10 w-full"}>
           <div
             className={
-              ser1 ? "w-[30%] text-6xl font-bold" : "w-full text-6xl font-bold"
+              ser1
+                ? "md:w-[30%] md:text-6xl text-xl font-bold"
+                : "md:w-full md:text-6xl text-xl font-bold"
             }
           >
             HOW OUR TEAM SERVE YOU WELL
           </div>
           {ser1 && (
-            <div className="w-[70%] text-xl pl-[10%]">
+            <div className="md:w-[70%] md:text-xl md:pl-[10%] pt-2 md:pt-0 ">
               We always give the best advice to our customers they want
               something interesting. Recommend good plants and serve customers
               in a friendly manner because we can develop into what we are today
@@ -54,20 +56,22 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="flex pt-10 w-full">
+        <div className={ser2 ? "md:flex pt-10 w-full" : "flex pt-10 w-full"}>
           <div
             className={
-              ser2 ? "w-[30%] text-6xl font-bold" : "w-full text-6xl font-bold"
+              ser2
+                ? "md:w-[30%] md:text-6xl text-xl font-bold"
+                : "md:w-full md:text-6xl text-xl font-bold"
             }
           >
             FAST AND ACCURATE PLANT DELIVERY
           </div>
           {ser2 && (
-            <div className="w-[70%] text-xl pl-[10%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              eveniet commodi, id ea iste praesentium eaque laudantium corrupti,
-              alias fugit accusamus, recusandae et repellendus asperiores
-              obcaecati! Quo deleniti consectetur nostrum!
+            <div className="md:w-[70%] md:text-xl md:pl-[10%] pt-2 md:pt-0 ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fuga
+              magni repellendus quasi quo tenetur consequatur nam corporis ad
+              illo doloremque aliquam, iste fugit vero placeat atque pariatur
+              voluptas praesentium?
             </div>
           )}
 
@@ -86,25 +90,26 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="flex pt-10 w-full">
+        <div className={ser3 ? "md:flex pt-10 w-full" : "flex pt-10 w-full"}>
           <div
             className={
-              ser3 ? "w-[30%] text-6xl font-bold" : "w-full text-6xl font-bold"
+              ser3
+                ? "md:w-[30%] md:text-6xl text-xl font-bold"
+                : "md:w-full md:text-6xl text-xl font-bold"
             }
           >
             PLANT FRESHNESS COMES FIRST
           </div>
           {ser3 && (
-            <div className="w-[70%] text-xl pl-[10%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              perspiciatis eveniet nostrum ab quis beatae reprehenderit est
-              debitis distinctio, enim nesciunt unde voluptatibus, ipsum harum,
-              placeat illum reiciendis veniam modi!
+            <div className="md:w-[70%] md:text-xl md:pl-[10%] pt-2 md:pt-0 ">
+              We always give the best advice to our customers they want
+              something interesting. Recommend good plants and serve customers
+              in a friendly manner because we can develop into what we are today
             </div>
           )}
 
           <div className="flex justify-end">
-            <div className={ser3 && "pt-10"} onClick={klik3}>
+            <div className={ser3 && "pt-10 "} onClick={klik3}>
               {!ser3 ? (
                 <AiOutlineDownCircle className="text-6xl" />
               ) : (
@@ -118,16 +123,18 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="flex pt-10 w-full">
+        <div className={ser4 ? "md:flex pt-10 w-full" : "flex pt-10 w-full"}>
           <div
             className={
-              ser4 ? "w-[30%] text-6xl font-bold" : "w-full text-6xl font-bold"
+              ser4
+                ? "md:w-[30%] md:text-6xl text-xl font-bold"
+                : "md:w-full md:text-6xl text-xl font-bold"
             }
           >
             SUITABILITY IN PROVIDING THE RIGHT FERTILIZER
           </div>
           {ser4 && (
-            <div className="w-[70%] text-xl pl-[10%]">
+            <div className="md:w-[70%] md:text-xl md:pl-[10%] pt-2 md:pt-0 ">
               We always give the best advice to our customers they want
               something interesting. Recommend good plants and serve customers
               in a friendly manner because we can develop into what we are today
@@ -135,7 +142,7 @@ const Service = () => {
           )}
 
           <div className="flex justify-end">
-            <div className={ser4 && "pt-10"} onClick={klik4}>
+            <div className={ser4 && "pt-10 "} onClick={klik4}>
               {!ser4 ? (
                 <AiOutlineDownCircle className="text-6xl" />
               ) : (
