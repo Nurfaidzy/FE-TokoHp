@@ -3,12 +3,15 @@ import Gambar from "./../Img/iphone.jpg";
 const Hero = () => {
   return (
     <div className="md:px-[5%] px-4 md:py-[5%] py-[15%]">
-      <div className="md:text-8xl text-4xl font-bold">
+      <div className="md:text-8xl text-4xl font-bold text-[#013508]">
         Find The Best
         <br />
         Smartphone For You
       </div>
-      <div className="md:flex  pt-[5%]">
+      <div className="font-bold pt-[2%]">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </div>
+      <div className="md:flex  pt-[3%]">
         <div className="md:w-[30%] bg-[#141313] text-white p-6">
           <div className="md:pt-8 md:text-4xl text-2xl font-bold">
             Get The Best Smartphone For You Activity or Just Gaming
