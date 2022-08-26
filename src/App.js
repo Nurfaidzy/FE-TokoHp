@@ -1,4 +1,5 @@
 import "./App.css";
+import Feedback from "./Components/HomePage/Feedback";
 import Hero from "./Components/HomePage/Hero";
 import Product from "./Components/HomePage/Product";
 import Recommend from "./Components/HomePage/Recommend";
@@ -13,6 +14,7 @@ function App() {
       <Product />
       <Service />
       <Recommend />
+      <Feedback />
     </>
   );
 }
