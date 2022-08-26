@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FE-TokoHp/static/css/main.50b1ff00.css",
+    "main.js": "/FE-TokoHp/static/js/main.978d9456.js",
+    "static/js/787.8e9ebbee.chunk.js": "/FE-TokoHp/static/js/787.8e9ebbee.chunk.js",
+    "static/media/iphone2.png": "/FE-TokoHp/static/media/iphone2.f54d19747856454bf473.png",
+    "static/media/wp.jpg": "/FE-TokoHp/static/media/wp.6f652af8dd1fb36f001f.jpg",
+    "static/media/iphone.jpg": "/FE-TokoHp/static/media/iphone.a0f2c48658fccd5de768.jpg",
+    "static/media/ipimg1.jpeg": "/FE-TokoHp/static/media/ipimg1.48b85f5e4daf3707fe09.jpeg",
+    "index.html": "/FE-TokoHp/index.html",
+    "main.50b1ff00.css.map": "/FE-TokoHp/static/css/main.50b1ff00.css.map",
+    "main.978d9456.js.map": "/FE-TokoHp/static/js/main.978d9456.js.map",
+    "787.8e9ebbee.chunk.js.map": "/FE-TokoHp/static/js/787.8e9ebbee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b1ff00.css",
+    "static/js/main.978d9456.js"
+  ]
+}
