@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 import Feedback from "./Components/HomePage/Feedback";
 import Hero from "./Components/HomePage/Hero";
 import Product from "./Components/HomePage/Product";
@@ -17,6 +18,7 @@ function App() {
       <Recommend />
       <Feedback />
       <Workcompany />
+      <Footer />
     </>
   );
 }
